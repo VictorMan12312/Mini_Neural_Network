@@ -50,20 +50,6 @@ El método de Newton aprovecha información de segunda derivada para ajustar los
 
 ---
 
-## Uso
-
-### Ejecución desde línea de comandos
-
-```bash
-python main.py --dataset synthetic --optimizer gd --epochs 100
-```
-
-```bash
-python main.py --dataset synthetic --optimizer newton --epochs 10
-```
-
----
-
 ### Uso como librería
 
 ```python

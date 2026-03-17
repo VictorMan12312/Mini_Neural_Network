@@ -48,18 +48,6 @@ El propósito principal de este proyecto es profundizar en los fundamentos de ap
 
 El método de Newton aprovecha información de segunda derivada para ajustar los parámetros de forma más eficiente, aunque su costo computacional lo hace menos viable en modelos de gran escala.
 
----
-
-### Uso como librería
-
-```python
-from mini_nn import Model, Dense
-
-model = Model([
-    Dense(4, 10),
-    Dense(10, 1)
-])
-```
 
 ---
 
